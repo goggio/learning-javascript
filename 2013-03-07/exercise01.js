@@ -6,7 +6,8 @@
 function identity(n){
 	var i;
 	var j;
-	var stringa = ""
+	var colonne = {};
+	var stringa="";
 
 	for(i=1; i<=n; i++ ){
 		for (j=1; j<=n; j++){
@@ -25,10 +26,10 @@ function identity(n){
 				}
 				
 		}
-		console.log(stringa);
+		colonne[i]=stringa;
 		stringa="";
 	}
+	return colonne;
 }
 
-//esempio con n=4
-identity(4);
+
