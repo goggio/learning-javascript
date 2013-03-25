@@ -39,7 +39,7 @@ Trinagle.prototype.perimeter=function(){
 Trinagle.prototype.area=function(){
 	var p=(this.perimeter()/2);
 	
-	return Math.sqrt(p*(p-this.ed1.length())*(p-this.ed2).length()*(p-this.ed3.length())); 
+	return Math.sqrt(p*(p-this.ed1.length())*(p-this.ed2.length())*(p-this.ed3.length())); 
 }
 
 
