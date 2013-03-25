@@ -11,7 +11,7 @@ function Point2D(x,y){
 //exercise02a
 function Edge(p1,p2){
 	this.p1=p1;
-	this
+	this.p2=p2;
 }
 
 
