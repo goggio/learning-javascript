@@ -17,8 +17,8 @@ function Edge(p1,p2){
 
 //exercise02b
 Edge.prototype.length = function () {
-  return Math.SQRT(Math.pow((this.p1.x-this.p2.x),2)+Math.pow((this.p1.y-this.p2.y),2));
-};
+  return Math.sqrt(Math.pow((this.p1.x-this.p2.x),2)+Math.pow((this.p1.y-this.p2.y),2));
+}
 
 //exercise03a
 function Trinagle(ed1,ed2,ed3){
